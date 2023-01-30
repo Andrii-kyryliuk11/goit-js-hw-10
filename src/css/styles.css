@@ -22,3 +22,44 @@ body {
 li{
   list-style: none;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: scale 100ms linear;
+}
+
+a:hover, a:focus {
+  scale: 1.1;
+}
+
+.country-list__item {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  font-weight: 600;
+}
+
+
+
+ img {
+  padding-right: 5px;
+  width: 35px;
+  height: 25px;
+}
+
+.country-info__item {
+  padding: 10px;
+}
+
+.country-info__item span{
+  font-size: 18px;
+  font-weight: 700;
+margin-right: 5px;
+}
+
+.country-info > :first-child{
+  font-size: 30px;
+font-weight: 700;
+letter-spacing: 0.06em;
+}

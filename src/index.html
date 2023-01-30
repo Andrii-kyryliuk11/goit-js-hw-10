@@ -8,22 +8,9 @@
   </head>
   <body>
     <input type="text" id="search-box" />
-    <ul class="country-list"></ul>
-    <div class="country-info"></div>
+    <ul class="country-list visible"></ul>
+    <div class="country-info visible"></div>
 
     <script src="index.js" type="module"></script>
   </body>
 </html>
-
-<ul>
-  <li><img src='${country.flags.svg}' alt="${
-      country.name.official
-    }flag>${country.name.official}</li>
-  <li>Capital:${
-  country.capital
-  }</li>
-  <li>Population:${
-  country.population
-  }</li>
-  <li>Languages:${country.languages}</li>
-</ul>
