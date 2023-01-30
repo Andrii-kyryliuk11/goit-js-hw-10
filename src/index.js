@@ -12,7 +12,7 @@ const refs = {
 
 refs.input.addEventListener('input', debounce(onFormInput, DEBOUNCE_DELAY));
 function addListenerToLinks() {
-  links = document.querySelectorAll('.link').forEach(item => {
+  const links = document.querySelectorAll('.link').forEach(item => {
     item.addEventListener('click', onLinkClick);
   });
 }
